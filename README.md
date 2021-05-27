@@ -16,6 +16,7 @@ Criteria:
 - Propose a fleet, short and long range capabilites ✈️
 - Provide some predictions 📈
 - Include visualizations and a 'financial report' definitely including cost of purchasing aircraft 📊
+- Potential routes both domestic and international 🌎
 - And, anything else that may be helpful ✅
 
 ### <b>Introduction</b>
