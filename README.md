@@ -91,13 +91,32 @@ To help determine exactly which of the airplanes to select, multiple charts and 
 
 <details>
   <summary>Short Range Aircraft</summary>
-  <p>See the following price chart:</p>
+  <br>See the following price chart:</br>
   <br>
   <img src = https://user-images.githubusercontent.com/65270652/119823261-f0dc2d80-bf37-11eb-9d92-f7637b4935c6.png></br>
-  <p>
-  - We find that Boeing on average is $6.75 million more expensive than Airbus </p>
+      > We find that Boeing on average is $6.75 million more expensive than Airbus
   
+  <br>See the following range and order numbers interactive graph:</br>
+  <br>
+  <img src = https://user-images.githubusercontent.com/65270652/119829990-29333a00-bf3f-11eb-88c5-c11317dab777.png></br>
+      > [<i>main.ipynb for the interactive version</i>]
   
+  <br>See the following seating capacities:</br>
+  <br>
+  <img src = https://user-images.githubusercontent.com/65270652/119828090-2f281b80-bf3d-11eb-91be-659591d0a5db.png></br>
+     > Blue represents Boeing aircraft, and silver for Airbus aircraft
+  
+  <br>See the following plot for Max Takeoff Weight and Takeoff Distance:</br>
+  <br>
+  <img src = https://user-images.githubusercontent.com/65270652/119828915-ffc5de80-bf3d-11eb-9927-ba6f795de5e5.png></br>
+     > A large spread between takeoff performances 
+    
+  <br>See the maximum cruising altitude:</br>
+  <br>
+  <img src = https://user-images.githubusercontent.com/65270652/119829300-72cf5500-bf3e-11eb-8c6b-8962a8efbc2d.png></br>
+     > Boeing airplanes perform better in the air 
+  
+  <br> Let's examine delivery rates: </br>
   
 ```python
 #Delivery rate for short-range aircraft 
@@ -136,15 +155,94 @@ smallplanes1.next = smallplanes2
 
 smallplanes.showdeliveryrate()
 ```
+<br>
+<img src = https://user-images.githubusercontent.com/65270652/119829783-f7ba6e80-bf3e-11eb-8450-a157e32a44c0.png></br>
+
+<br>__Final Decision__</br>
+
+<br>
+
+</br>
 </details>
 
 <details>
-  <summary>Long Range Aircraft</summary>
-  <p>See the following price chart:</p>
-  <img src = https://user-images.githubusercontent.com/65270652/119824263-10278a80-bf39-11eb-851c-5c8208524cba.png>
-  - We find that Boeing on average is $88.35 million more expensive than Airbus
-</details>
+<summary>Long Range Aircraft</summary>
+<br>See the following price chart:</br>
+<br>
+<img src = https://user-images.githubusercontent.com/65270652/119824263-10278a80-bf39-11eb-851c-5c8208524cba.png></br>
+    > We find that Boeing on average is $88.35 million more expensive than Airbus
 
+<br>See the following range and order numbers interactive graph:</br>
+<br>
+<img src = https://user-images.githubusercontent.com/65270652/119831205-62b87500-bf40-11eb-8899-7cf51c3938f4.png></br>
+    > [<i>main.ipynb for the interactive version</i>]
+
+<br>See the following seating capacities:</br>
+<br>
+<img src = https://user-images.githubusercontent.com/65270652/119831591-c773cf80-bf40-11eb-9b1c-6e36bcc3ad88.png></br>
+    > Blue represents Boeing aircraft, and silver for Airbus aircraft
+
+<br>See the following plot for Max Takeoff Weight and Takeoff Distance:</br>
+<br>
+<img src = https://user-images.githubusercontent.com/65270652/119832136-423cea80-bf41-11eb-9d58-f4f0ed89471b.png></br>
+    > A consistent spread between takeoff performances 
+
+<br>See the maximum cruising altitude:</br>
+<br>
+<img src = https://user-images.githubusercontent.com/65270652/119832416-803a0e80-bf41-11eb-84b1-c679d0a9da1a.png></br>
+    > Boeing airplanes perform a bit better in the air 
+
+<br> Let's examine delivery rates: </br>
+
+```python
+#Delivery rate for long-range aircraft 
+#
+#Implemented through a linked list
+
+class node:
+    def __init__(self, data = None):
+        self.data = data 
+        self.next = None 
+
+class sra:
+    def __init__(self):
+        self.head = None 
+
+    def showdeliveryrate(self):
+        if self.head == None:
+            return None
+
+        rates = [str(round(((355/745) * 100), 2)) + '%', str(round(((53/168) * 100), 2)) + '%', str(round(((47/155) * 100), 2)) + '%', str(round(((0/312) * 100), 2)) + '%']
+
+        traverse = self.head 
+        while traverse != None:
+            for i in range(4):
+                print(traverse.data + rates[i])
+                traverse = traverse.next
+
+smallplanes = sra()
+
+smallplanes.head = node('A350-900 -> ')
+smallplanes1 = node('A350-1000 -> ')
+smallplanes2 = node('747-8i -> ')
+smallplanes3 = node('777-9X -> ')
+
+smallplanes.head.next = smallplanes1 
+smallplanes1.next = smallplanes2
+smallplanes2.next = smallplanes3
+
+smallplanes.showdeliveryrate()
+
+```
+<br>
+<img src = https://user-images.githubusercontent.com/65270652/119832900-f8a0cf80-bf41-11eb-8f63-e6ad4b8b27f4.png></br>
+
+<br>__Final Decision__</br>
+
+<br>
+</br>
+
+</details>
 
 
 <b>Routes</b>
