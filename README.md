@@ -1,6 +1,8 @@
 # Airline Analysis Project
 
 
+<sup>GitHub won't show plotly plots (interactive charts), please view them here [nbviewer_airlineanalysis](https://nbviewer.jupyter.org/github/darrenlxu/airline-analysis/blob/main/main.ipynb) instead.</sup>
+
 <b>Description</b>
 ------
 This is a project based on a made-up scenario: 
@@ -24,7 +26,7 @@ All files related to this project have also been provided in this repository.
 
 First, we will examine and clean/tidy our data sets. Next with the now relevant/short-listed data, we began to collate our analysis, finalizing our results and final decisions whilst simultaneously addressing the airline's criteria.
 
-For full code, visualizations and analysis, refer to the Jupyter Notebooks (<i>.ipynb</i>).
+For full code, visualizations and analysis, refer to the Jupyter Notebooks (<i>.ipynb</i>) or [nbviewer_airlineanalysis](https://nbviewer.jupyter.org/github/darrenlxu/airline-analysis/blob/main/main.ipynb).
 
 <b>Cleaning & Short Listing Data</b>
 ------
@@ -103,7 +105,7 @@ To help determine exactly which of the airplanes to select, multiple charts and 
   <br>
   <img src = https://user-images.githubusercontent.com/65270652/119829990-29333a00-bf3f-11eb-88c5-c11317dab777.png></br>
   <ul>
-  <li>[<i>main.ipynb for the full interactive version</i>]</li>
+  <li>[<i>[nbviewer_airlineanalysis](https://nbviewer.jupyter.org/github/darrenlxu/airline-analysis/blob/main/main.ipynb)for the full interactive version</i>]</li>
   <li> <i>Each bubble will show the model, orders, range in nautical miles and price in $1,000,000</i></li>
   </ul>
   
@@ -200,7 +202,7 @@ The expectation is that for short-range aircraft, they will only be used for dom
 <br>
 <img src = https://user-images.githubusercontent.com/65270652/119831205-62b87500-bf40-11eb-8899-7cf51c3938f4.png></br>
 <ul>
-  <li>[<i>main.ipynb for the interactive version</i>]</li>
+  <li>[<i>[nbviewer_airlineanalysis](https://nbviewer.jupyter.org/github/darrenlxu/airline-analysis/blob/main/main.ipynb)for the interactive version</i>]</li>
   <li><i>Each bubble will show the model, orders, range in nautical miles and price in $1,000,000</i></li></ul>
 
 <br><b><i>See the following seating capacities:</b></i></br>
@@ -295,7 +297,7 @@ Now, for potential routes. All routes will depart from LAX and return to LAX. We
 <details>
   <summary>Domestic Routes</summary>
   <br>
-  <i>We highly recommend viewing main.ipynb for the full interaction version of the following graphs and plots.</i></br>
+  <i>We highly recommend viewing [nbviewer_airlineanalysis](https://nbviewer.jupyter.org/github/darrenlxu/airline-analysis/blob/main/main.ipynb) for the full interaction version of the following graphs and plots.</i></br>
   <br>The bubbles in the following map of the United States show the top destinations within the US from LAX</br>
   <br>
   <img src = https://user-images.githubusercontent.com/65270652/119919875-b19cf380-bfae-11eb-9edf-6e38f8920854.png></br>
@@ -303,7 +305,7 @@ Now, for potential routes. All routes will depart from LAX and return to LAX. We
   <li>We see that destinations are somewhat evenly distributed across the country</li>
   <li>Each bubble displays the city of arrival, time of flight in hours (TOF), latitude, longitude and passengers</li>
   <li>A bubble has been generated for LAX just for reference</li>
-  <li>[<i>main.ipynb for the full interactive version (recommended)</i>]</li></ul>
+  <li>[<i>[nbviewer_airlineanalysis](https://nbviewer.jupyter.org/github/darrenlxu/airline-analysis/blob/main/main.ipynb)for the full interactive version (recommended)</i>]</li></ul>
   <i><b>See the bar plot:</i></b>
   <br>
   <img src = https://user-images.githubusercontent.com/65270652/119920584-eb222e80-bfaf-11eb-88fb-9194fc329f75.png></br>
@@ -338,14 +340,14 @@ Now, for potential routes. All routes will depart from LAX and return to LAX. We
 <details>
   <summary>International Routes</summary>
   <br>
-  <i>We highly recommend viewing main.ipynb for the full interaction version of the following graphs and plots.</i></br>
+  <i>We highly recommend viewing [nbviewer_airlineanalysis](https://nbviewer.jupyter.org/github/darrenlxu/airline-analysis/blob/main/main.ipynb) for the full interaction version of the following graphs and plots.</i></br>
   <br>The bubbles in the following map of the Earth show the top international destinations from LAX</br>
   <br>
   <img src = https://user-images.githubusercontent.com/65270652/119922879-0abb5600-bfb4-11eb-95ed-02c4094f9785.png></br>
   <ul>
   <li>We see that destinations are primarily distributed across the Northern Hemisphere</li>
   <li>Each bubble displays the city of arrival, distance, latitude, longitude and passengers</li>
-  <li>[<i>main.ipynb for the full interactive version (recommended)</i>]</li></ul>
+  <li>[<i>[nbviewer_airlineanalysis](https://nbviewer.jupyter.org/github/darrenlxu/airline-analysis/blob/main/main.ipynb) for the full interactive version (recommended)</i>]</li></ul>
   <i><b>See the bar plot:</i></b>
   <br>
   <img src = https://user-images.githubusercontent.com/65270652/119922950-2a527e80-bfb4-11eb-8fc4-2a7f5648fa6c.png></br>
@@ -407,6 +409,8 @@ Throughout this project we have found the airline's short-range aircraft as well
   <summary>Potential Improvements</summary>
   <sub>To further improve this project, we can perform deeper analysis and create more extensive models. We can also address factors and criteria such as potential ticket prices, estimated performance and a full competition analysis. More of this may be added in the future to best improve the Airline Analysis Project.</sup>
 </details>
+
+
 
 
 
