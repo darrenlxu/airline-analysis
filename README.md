@@ -3,6 +3,8 @@
 
 <sup>GitHub won't show plotly plots (interactive charts), please view them here [nbviewer_airlineanalysis]() instead OR view them in the viewplotly folder in the repository.</sup>
 
+<sup>Sometimes GitHub won't show Jupyter Notebooks, see [nbviewer_airlineanalysis]() instead.</sup>
+
 
 
 <b>Description</b>
