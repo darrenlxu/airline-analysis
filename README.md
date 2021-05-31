@@ -309,7 +309,7 @@ Now, for potential routes. All routes will depart from LAX and return to LAX. We
   <ul>
   <li>We see that destinations are somewhat evenly distributed across the country</li>
   <li>Each bubble displays the city of arrival, time of flight in hours (TOF), latitude, longitude and passengers</li>
-  <li>A bubble has been generated for LAX just for reference</li>
+  <li>A bubble has been generated for LAX just for reference, <i>it holds no information</i></li>
   <li><i>viewplotly folder (file:///Users/darren/2021/files/domesticroutes.html) for the full interactive version</i></li>
   
   <i><b><br>See the bar plot:</i></b></br>
@@ -354,6 +354,7 @@ Now, for potential routes. All routes will depart from LAX and return to LAX. We
   <ul>
   <li>We see that destinations are primarily distributed across the Northern Hemisphere</li>
   <li>Each bubble displays the city of arrival, distance, latitude, longitude and passengers</li>
+  <li>A bubble has been generated for LAX just for reference, <i>it holds no information</i></li>
   <li><i>viewplotly folder (file:///Users/darren/2021/files/internationalroutes.html) for the full interactive version</i></li></ul>
   
   <br><i><b>See the bar plot:</i></b></br>
