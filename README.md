@@ -1,7 +1,9 @@
 # Airline Analysis Project
 
 
-<sup>GitHub won't show plotly plots (interactive charts), please view them here [nbviewer_airlineanalysis](https://nbviewer.jupyter.org/github/darrenlxu/airline-analysis/blob/main/main.ipynb) instead.</sup>
+<sup>GitHub won't show plotly plots (interactive charts), please view them here [nbviewer_airlineanalysis]() instead OR view them in the viewplotly folder in the repository.</sup>
+
+
 
 <b>Description</b>
 ------
@@ -26,7 +28,7 @@ All files related to this project have also been provided in this repository.
 
 First, we will examine and clean/tidy our data sets. Next with the now relevant/short-listed data, we began to collate our analysis, finalizing our results and final decisions whilst simultaneously addressing the airline's criteria.
 
-For full code, visualizations and analysis, refer to the Jupyter Notebooks (<i>.ipynb</i>) or [nbviewer_airlineanalysis](https://nbviewer.jupyter.org/github/darrenlxu/airline-analysis/blob/main/main.ipynb).
+For full code, visualizations and analysis, refer to the Jupyter Notebooks (<i>.ipynb</i>) or [nbviewer_airlineanalysis]() or viewplotly folder.
 
 <b>Cleaning & Short Listing Data</b>
 ------
@@ -105,7 +107,7 @@ To help determine exactly which of the airplanes to select, multiple charts and 
   <br>
   <img src = https://user-images.githubusercontent.com/65270652/119829990-29333a00-bf3f-11eb-88c5-c11317dab777.png></br>
   <ul>
-  <li>[<i>[nbviewer_airlineanalysis](https://nbviewer.jupyter.org/github/darrenlxu/airline-analysis/blob/main/main.ipynb)for the full interactive version</i>]</li>
+  <li><i>(LINK) OR viewplotly folder for the full interactive version</i></li>
   <li> <i>Each bubble will show the model, orders, range in nautical miles and price in $1,000,000</i></li>
   </ul>
   
@@ -125,6 +127,7 @@ To help determine exactly which of the airplanes to select, multiple charts and 
   <br>
   <img src = https://user-images.githubusercontent.com/65270652/119829300-72cf5500-bf3e-11eb-8c6b-8962a8efbc2d.png></br>
   <ul>
+  <li><i>(LINK) OR viewplotly folder for the full interactive version</i></li>
   <li>Boeing airplanes perform better in the air</li></ul>
   
   <br><b><i>Let's examine delivery rates:</b></i></br>
@@ -202,7 +205,7 @@ The expectation is that for short-range aircraft, they will only be used for dom
 <br>
 <img src = https://user-images.githubusercontent.com/65270652/119831205-62b87500-bf40-11eb-8899-7cf51c3938f4.png></br>
 <ul>
-  <li>[<i>[nbviewer_airlineanalysis](https://nbviewer.jupyter.org/github/darrenlxu/airline-analysis/blob/main/main.ipynb)for the interactive version</i>]</li>
+  <li><i>(LINK) OR viewplotly folder for the full interactive version</i></li>
   <li><i>Each bubble will show the model, orders, range in nautical miles and price in $1,000,000</i></li></ul>
 
 <br><b><i>See the following seating capacities:</b></i></br>
@@ -221,6 +224,7 @@ The expectation is that for short-range aircraft, they will only be used for dom
 <br>
 <img src = https://user-images.githubusercontent.com/65270652/119832416-803a0e80-bf41-11eb-84b1-c679d0a9da1a.png></br>
 <ul>
+  <li><i>(LINK) OR viewplotly folder for the full interactive version</i></li>
   <li>Boeing airplanes perform a bit better in the air</li></ul>
 
 <br><b><i>Let's examine delivery rates:</b></i></br>
@@ -297,7 +301,7 @@ Now, for potential routes. All routes will depart from LAX and return to LAX. We
 <details>
   <summary>Domestic Routes</summary>
   <br>
-  <i>We highly recommend viewing [nbviewer_airlineanalysis](https://nbviewer.jupyter.org/github/darrenlxu/airline-analysis/blob/main/main.ipynb) for the full interaction version of the following graphs and plots.</i></br>
+  <i>We highly recommend viewing (LINK) or viewplotly('domesticroutes') for the full interaction version of the following graphs and plots.</i></br>
   <br>The bubbles in the following map of the United States show the top destinations within the US from LAX</br>
   <br>
   <img src = https://user-images.githubusercontent.com/65270652/119919875-b19cf380-bfae-11eb-9edf-6e38f8920854.png></br>
@@ -305,7 +309,8 @@ Now, for potential routes. All routes will depart from LAX and return to LAX. We
   <li>We see that destinations are somewhat evenly distributed across the country</li>
   <li>Each bubble displays the city of arrival, time of flight in hours (TOF), latitude, longitude and passengers</li>
   <li>A bubble has been generated for LAX just for reference</li>
-  <li>[<i>[nbviewer_airlineanalysis](https://nbviewer.jupyter.org/github/darrenlxu/airline-analysis/blob/main/main.ipynb)for the full interactive version (recommended)</i>]</li></ul>
+  <li><i>(LINK) OR viewplotly folder for the full interactive version</i></li>
+  
   <i><b>See the bar plot:</i></b>
   <br>
   <img src = https://user-images.githubusercontent.com/65270652/119920584-eb222e80-bfaf-11eb-88fb-9194fc329f75.png></br>
@@ -340,14 +345,15 @@ Now, for potential routes. All routes will depart from LAX and return to LAX. We
 <details>
   <summary>International Routes</summary>
   <br>
-  <i>We highly recommend viewing [nbviewer_airlineanalysis](https://nbviewer.jupyter.org/github/darrenlxu/airline-analysis/blob/main/main.ipynb) for the full interaction version of the following graphs and plots.</i></br>
+  <i>We highly recommend viewing (LINK) for the full interaction version of the following graphs and plots.</i></br>
   <br>The bubbles in the following map of the Earth show the top international destinations from LAX</br>
   <br>
   <img src = https://user-images.githubusercontent.com/65270652/119922879-0abb5600-bfb4-11eb-95ed-02c4094f9785.png></br>
   <ul>
   <li>We see that destinations are primarily distributed across the Northern Hemisphere</li>
   <li>Each bubble displays the city of arrival, distance, latitude, longitude and passengers</li>
-  <li>[<i>[nbviewer_airlineanalysis](https://nbviewer.jupyter.org/github/darrenlxu/airline-analysis/blob/main/main.ipynb) for the full interactive version (recommended)</i>]</li></ul>
+  <li><i>(LINK) OR viewplotly folder for the full interactive version</i></li></ul>
+  
   <i><b>See the bar plot:</i></b>
   <br>
   <img src = https://user-images.githubusercontent.com/65270652/119922950-2a527e80-bfb4-11eb-8fc4-2a7f5648fa6c.png></br>
