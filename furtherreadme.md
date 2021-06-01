@@ -1,9 +1,9 @@
 
 
-[nbviewer_airlineanalysis](https://nbviewer.jupyter.org/github/darrenlxu/airline-analysis/blob/main/main.ipynb) is better than main.ipynb because of GitHub not displaying plotly charts. 
+[nbviewer_airlineanalysis](https://nbviewer.jupyter.org/github/darrenlxu/airline-analysis/blob/main/main.ipynb) is better than <b>main.ipynb</b> because of GitHub not displaying plotly charts. 
 
 Within [nbviewer_airlineanalysis](https://nbviewer.jupyter.org/github/darrenlxu/airline-analysis/blob/main/main.ipynb), there are separate file links or go 
-to the viewplotly folder to view geographic plots which are not shown in the viewer. 
+to the <b>viewplotly folder</b> to view geographic plots which are not shown in the viewer. 
 
 <u>Steps for those geographic plots:</u>
 1. Open link in new tab
