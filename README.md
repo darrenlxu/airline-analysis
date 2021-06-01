@@ -1,9 +1,11 @@
 # Airline Analysis Project
 
 
-<sup>GitHub won't show plotly plots (interactive charts), please view them here [nbviewer_airlineanalysis](https://nbviewer.jupyter.org/github/darrenlxu/airline-analysis/blob/main/main.ipynb) instead OR view them in the viewplotly folder in the repository OR copy and paste provided HTML file links into a new tab, download html files and drag into another new tab.</sup>
+<sup>For main.ipynb, GitHub won't show plotly plots (interactive charts), please view them here [nbviewer_airlineanalysis](https://nbviewer.jupyter.org/github/darrenlxu/airline-analysis/blob/main/main.ipynb) instead OR view them in the viewplotly folder in the repository OR copy and paste provided HTML file links into a new tab, download html files and drag into another new tab.</sup>
 
 <sup>Sometimes GitHub won't show Jupyter Notebooks, see [nbviewer_airlineanalysis](https://nbviewer.jupyter.org/github/darrenlxu/airline-analysis/blob/main/main.ipynb) instead if this happens.</sup>
+
+<sup>sqlqueries.ipynb works fine on GitHub</sup>
 
 
 <b>Description</b>
